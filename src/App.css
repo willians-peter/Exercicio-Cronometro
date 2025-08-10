@@ -1,0 +1,65 @@
+.cronometro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 40px;
+  border-radius: 10px;
+  margin: 10px 0;
+  width: 600px;
+  border: 1px solid #3e423f;
+  width: 70%;
+  height: 150vh;
+  margin-top: 5vh;
+  margin-left: auto; 
+  margin-right: auto; 
+  max-width: 500px; 
+  max-height: 500px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.tempo {
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.botao {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px; 
+}
+
+.botao button {
+  width: 100px;
+  height: 40px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #5c5f5c;
+  color: #fff;
+  cursor: pointer;
+}
+
+.botao button:hover {
+  background-color: #2f7591;
+}
+.imagem_f1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px; 
+}
+.imagem_f1 img {
+  border-radius: 5px;
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+}
